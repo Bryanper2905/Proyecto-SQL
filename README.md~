@@ -1,31 +1,16 @@
-# 📊 Proyecto SQL – Análisis de Base de Datos Northwind
+# 📊 Proyecto SQL: Análisis de Datos con Northwind
 
-## 📌 Descripción
+## 🧩 Descripción del Proyecto
 
-Este proyecto tiene como objetivo aplicar técnicas de análisis de datos utilizando SQL sobre la base de datos **Northwind**, la cual simula las operaciones de una empresa de distribución.
+Este proyecto consiste en el análisis de la base de datos **Northwind**, la cual simula las operaciones de una empresa de distribución.
 
-A través de consultas SQL, se responden diversas preguntas de negocio relacionadas con ventas, comportamiento de clientes y rendimiento comercial.
-
----
-
-## 🗂️ Estructura de la Base de Datos
-
-La base de datos Northwind incluye las siguientes tablas principales:
-
-* **Customers**: Información de clientes (empresa, ciudad, país)
-* **Employees**: Empleados que gestionan pedidos
-* **Products**: Productos disponibles y sus precios
-* **Categories**: Clasificación de productos
-* **Orders**: Pedidos realizados
-* **OrderDetails**: Detalles de cada pedido (cantidad, precio)
-* **Shippers**: Empresas de envío
-* **Suppliers**: Proveedores de productos
+El objetivo es responder preguntas de negocio mediante consultas SQL, aplicando técnicas de análisis de datos para extraer información relevante sobre ventas, clientes y rendimiento comercial.
 
 ---
 
-## 🎯 Objetivo del Proyecto
+## 🎯 Objetivo
 
-Resolver preguntas de negocio utilizando:
+Desarrollar consultas SQL que permitan interpretar datos desde una perspectiva analítica utilizando:
 
 * Funciones agregadas (SUM, AVG, COUNT)
 * JOINs
@@ -36,21 +21,36 @@ Resolver preguntas de negocio utilizando:
 
 ---
 
+## 🗂️ Estructura de la Base de Datos
+
+Las principales tablas utilizadas son:
+
+* **Customers** → Información de clientes
+* **Employees** → Empleados que gestionan pedidos
+* **Products** → Productos y precios
+* **Categories** → Clasificación de productos
+* **Orders** → Pedidos realizados
+* **OrderDetails** → Detalles de cada pedido
+* **Shippers** → Empresas de envío
+* **Suppliers** → Proveedores
+
+---
+
 ## 📈 Análisis Realizados
 
 ### 🔹 Análisis de Ventas
 
 * Top 10 productos con mayores ingresos
 * Categorías más rentables
-* Cliente con mayor volumen de compras
-* País con mayores ingresos recientes
+* Cliente con mayor gasto total
+* País con mayores ingresos
 * Empleado con más pedidos gestionados
 
 ### 🔹 Comportamiento de Clientes
 
 * Porcentaje de clientes sin compras
 * Países con más clientes activos
-* Clientes con mayor diversidad de productos comprados
+* Clientes con mayor diversidad de compras
 * Análisis de preferencia por categoría
 * Ticket promedio por pedido
 
@@ -68,3 +68,31 @@ Resolver preguntas de negocio utilizando:
 
 * SQL
 * Base de datos Northwind
+
+---
+
+## 📂 Archivos del Proyecto
+
+* `queries.sql` → Consultas SQL desarrolladas
+* `README.md` → Descripción del proyecto
+
+---
+
+## 🚀 Cómo ejecutar el proyecto
+
+1. Importar la base de datos Northwind en tu gestor SQL
+2. Abrir el archivo `queries.sql`
+3. Ejecutar las consultas paso a paso
+
+---
+
+## 💡 Resultados Esperados
+
+El proyecto permite identificar patrones de compra, clientes clave y oportunidades de mejora en ventas mediante el análisis de datos.
+
+---
+
+## 👨‍💻 Autor
+
+**Bryan Lopez**
+Ingeniero Químico | Data Analytics
