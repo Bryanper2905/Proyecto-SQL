@@ -1,1 +1,70 @@
-# Proyecto-SQL
+# 📊 Proyecto SQL – Análisis de Base de Datos Northwind
+
+## 📌 Descripción
+
+Este proyecto tiene como objetivo aplicar técnicas de análisis de datos utilizando SQL sobre la base de datos **Northwind**, la cual simula las operaciones de una empresa de distribución.
+
+A través de consultas SQL, se responden diversas preguntas de negocio relacionadas con ventas, comportamiento de clientes y rendimiento comercial.
+
+---
+
+## 🗂️ Estructura de la Base de Datos
+
+La base de datos Northwind incluye las siguientes tablas principales:
+
+* **Customers**: Información de clientes (empresa, ciudad, país)
+* **Employees**: Empleados que gestionan pedidos
+* **Products**: Productos disponibles y sus precios
+* **Categories**: Clasificación de productos
+* **Orders**: Pedidos realizados
+* **OrderDetails**: Detalles de cada pedido (cantidad, precio)
+* **Shippers**: Empresas de envío
+* **Suppliers**: Proveedores de productos
+
+---
+
+## 🎯 Objetivo del Proyecto
+
+Resolver preguntas de negocio utilizando:
+
+* Funciones agregadas (SUM, AVG, COUNT)
+* JOINs
+* Subconsultas
+* CTEs (Common Table Expressions)
+* Funciones de ventana
+* Optimización de consultas (EXPLAIN)
+
+---
+
+## 📈 Análisis Realizados
+
+### 🔹 Análisis de Ventas
+
+* Top 10 productos con mayores ingresos
+* Categorías más rentables
+* Cliente con mayor volumen de compras
+* País con mayores ingresos recientes
+* Empleado con más pedidos gestionados
+
+### 🔹 Comportamiento de Clientes
+
+* Porcentaje de clientes sin compras
+* Países con más clientes activos
+* Clientes con mayor diversidad de productos comprados
+* Análisis de preferencia por categoría
+* Ticket promedio por pedido
+
+### 🔹 Rendimiento y Tendencias
+
+* Ranking de clientes por gasto
+* Ventas mensuales
+* Mejor mes en ventas
+* Evolución del gasto por cliente
+* Productos más vendidos por trimestre
+
+---
+
+## 🛠️ Tecnologías Utilizadas
+
+* SQL
+* Base de datos Northwind
